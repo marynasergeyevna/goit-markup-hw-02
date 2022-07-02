@@ -4,39 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework №2</title>
-    <link rel="stylesheet" href=" ./css/styles.css" />
-  
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!--Файли стилей Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--Файли стилей Raleway Bold-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
   </head>
   <body>
     
 
     <!-- Шапка сайта -->
 
-    <header class="page header">
+    <header>
     
-      <a href="">WebStudio</a>
-     
+      <a class = "web " href="">Web<span class="studio">Studio</span></a>
       
-
+      
+    <!--Контакты-->
+    
       <nav>
-        <ul>
-          <li><a href="#"></a>Студия</li>
-          <li><a href="#"></a>Портфолио</li>
-          <li><a href="#"></a>Контакты</li>
+        <ul class="contact .list">
+          <li><a class="stydia .link" href=""></a>Студия</li>
+          <li><a class="portfolio .link" href=""></a>Портфолио</li>
+          <li><a class="contacts .link" href=""></a>Контакты</li>
         </ul>
       </nav>
 
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+380961111111">+38 096 111 11 11</a>
+      <a class="mail .link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a class="phone .link" href="tel:+380961111111">+38 096 111 11 11</a>
     </header>
 
     <main>
 
       <!-- Решения для бизнеса -->
 
-      <section>
+      <section class="businesssection">
         <h1>эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+        <button class="button" type="button">Заказать услугу</button>
       </section>
 
 
@@ -46,32 +56,32 @@
     
         <ul>
           <li>
-            <h3>внимание к деталям</h3>
-            <p>
+            <h3 class="details">внимание к деталям</h3>
+            <p class="text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
 
           <li>
-            <h3>пунктуальность</h3>
-            <p>
+            <h3 class="details">пунктуальность</h3>
+            <p class="text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
 
           <li>
-            <h3>планирование</h3>
-            <p>
+            <h3 class="details">планирование</h3>
+            <p class="text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
 
           <li>
-            <h3>современные технологии</h3>
-            <p>
+            <h3 class="details">современные технологии</h3>
+            <p class="text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -86,37 +96,37 @@
 
       <section>
         <h2>Чем мы занимаемся</h2>
-        <ul>
+        <ul class="rings">
           <li>
-            <a href="#"
+            <a class="images" href="#"
               ><img
                 src="./images/team-7.jpg"
                 alt="Рабочий стол"
                 width="370"
                 height="294"
-              />Десктопные приложения</a
+              /></a
             >
           </li>
 
           <li>
-            <a href="#"
+            <a class="images" href="#"
               ><img
                 src="./images/team-6.jpg"
                 alt="Ноутбук"
                 width="370"
                 height="294"
-              />Мобильные приложения</a
+              /></a
             >
           </li>
 
           <li>
-            <a href="#">
+            <a class="images" href="#">
               <img
                 src="./images/team-5.jpg"
                 alt="Планшет"
                 width="370"
                 height="294"
-              />Дизайнерские решения</a>
+              /></a>
             
           </li>
         </ul>
@@ -125,9 +135,9 @@
 
       <!-- Наша команда -->
 
-      <section>
+      <section class="teamsection">
         <h2>Наша команда</h2>
-        <ul lang="en">
+        <ul class="rings" lang="en">
           <li>
             <img
               src="./images/team-1.jpg"
@@ -135,8 +145,8 @@
               width="270"
               height="260"
             />
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <h3 class="details">Игорь Демьяненко</h3>
+            <p class="text">Product Designer</p>
           </li>
           <li>
             <img
@@ -145,8 +155,8 @@
               width="270"
               height="260"
             />
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="details">Ольга Репина</h3>
+            <p class="text">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -155,8 +165,8 @@
               width="270"
               height="260"
             />
-            <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="details">Николай Тарасов</h3>
+            <p class="text">Marketing</p>
           </li>
           <li>
             <img
@@ -165,8 +175,8 @@
               width="270"
               height="260"
             />
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="details">Михаил Ермаков</h3>
+            <p class="text">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -175,16 +185,19 @@
     <!-- Футер -->
 
     <footer>
-      <a href="">WebStudio</a>
+      
+      <a class = "webb" href="">Web<span class="studioo">Studio</span></a>
+
       <address>
         
-          <ul>
+          <ul class="adress">
         <li><a href="#"></a>г. Киев, пр-т Леси Украинки, 26 </li>
         <li><a href="mailto:@example.com"></a>@example.com </li>
         <li><a href="tel:+380991111111"></a>+38 099 111 11 11</li>
           </ul>
         
       </address>
+    
     </footer>
   </body>
 </html>
