@@ -2,16 +2,16 @@
 :root {
 
 /*fonts шось пішло не так*/
---main-font: Roboto,sans-serif; 
---secondary-font: Raleway, sans-serif; 
+--main-font: 'Roboto',sans-serif; 
+--secondary-font: 'Raleway', sans-serif; 
 
 
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family:'Roboto', sans-serif;
     background-color:#E5E5E5;
-    color: #212121;
+    
     
     
    
