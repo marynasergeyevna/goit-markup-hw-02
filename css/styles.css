@@ -18,30 +18,36 @@
     
     .web {
     font-family: 'Raleway';
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height:calc(31/26);
     /* identical to box height з фигми*/
     
-    letter-spacing: 0.03em;
+    letter-spacing:0.03em;
     
     color: #2196F3;
     cursor: default;
     text-decoration: none;
+   
     }
     
     .studio {
         font-family: 'Raleway';
-        font-weight: 700;
+
+        font-style: normal;
+        font-weight: 500;
         font-size: 26px;
         line-height:calc(31/26);
         /* identical to box height з фигми*/
         
-        letter-spacing: 0.03em;
+        letter-spacing:0.03em;
         
         color: #2F303A;
         cursor: default; 
         text-decoration: none;
+        letter-spacing: normal;
+        
         
     }
         
@@ -51,10 +57,12 @@
     
     .stydia:hover
     .stydia:focus {
+      font-family: 'Roboto';
+      font-style: normal;
       font-weight: 500;
       font-size: 14px;
       line-height:calc(16/14);
-      letter-spacing: 0.02em;
+      letter-spacing:0.02em;
     
        color: #2196F3;
        cursor: pointer;
@@ -64,6 +72,8 @@
     }
     
     .portfolio {
+        font-family: 'Roboto';
+        font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height:calc(16/14);
@@ -76,6 +86,8 @@
     }
     
     .contacts { 
+        font-family: 'Roboto';
+        font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height:calc(16/14);
@@ -113,6 +125,8 @@
     
     
     .efectiv { 
+    font-family: 'Roboto';
+    font-style: normal;
         
     font-weight: 900;
     font-size: 44px;
@@ -127,7 +141,8 @@
     }
     
     button {
-        
+    font-family: 'Roboto';
+    font-style: normal;    
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30/16);
@@ -160,6 +175,8 @@
     /*Чем мы занимаемся*/
     
     .whatwemade {
+        font-family: 'Roboto';
+        font-style: normal;
         font-weight: 700;
         font-size: 36px;
         line-height:calc(42/36);
@@ -171,28 +188,29 @@
     
     /*Наша команда + композици*/
     .details {
-    font-weight: 500;
-    font-size: 16px;
-    line-height:calc(19/16);
-    /* identical to box height */
-    
-    
-    letter-spacing: 0.03em;
-    
-    color: #212121;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+       
+        letter-spacing: 0.03em;
+        
+        color: #212121;
     
     }
     
     .text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height:calc(19/16);
-    /* identical to box height */
-    
-    
-    letter-spacing: 0.03em;
-    
-    color: #757575;
+        font-family:'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+       
+        
+        letter-spacing: 0.03em;
+        
+        color: #757575;
     
     }
     
@@ -208,6 +226,7 @@
     }
     .webb {
         font-family: 'Raleway';
+        font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 31px;
@@ -225,6 +244,7 @@
     
     .studioo {
     font-family: 'Raleway';
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height:calc(31/26);
@@ -237,6 +257,8 @@
     
     }
     .adress {
+        font-family:'Roboto';
+        font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: calc(24/14);
@@ -248,6 +270,19 @@
        font-style: normal;
        list-style: none;
     
+    }
+    .coloradress{
+        font-family:'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: calc(24/14);
+     /* or 171% */
+    
+        letter-spacing: 0.03em;
+        color: rgba(126, 31, 31, 0.6);
+        font-style: normal;
+        list-style: none;
     }
     
       /*!!убираем маркеры!!но что-то не так*/  
