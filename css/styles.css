@@ -55,8 +55,8 @@
     /*Контакты*/
     
     
-    .stydia:hover
-    .stydia:focus {
+    .liststydia:hover
+    .liststydia:focus {
       font-family: 'Roboto';
       font-style: normal;
       font-weight: 500;
@@ -65,13 +65,13 @@
       letter-spacing:0.02em;
     
        color: #2196F3;
-       cursor: pointer;
-       text-decoration: none;
+       cursor:pointer;
+       text-decoration:none;
        
        
     }
     
-    .portfolio {
+    .listportfolio {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
@@ -85,7 +85,7 @@
     
     }
     
-    .contacts { 
+    .listcontacts { 
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
@@ -95,7 +95,7 @@
     
        color: #212121;
        cursor: default;
-       text-decoration: none;
+       text-decoration:none;
     }
     
     
@@ -156,7 +156,7 @@
     color: #FFFFFF;
     }
     
-    .business{
+    .business  {
         color: #FFFFFF;
     
     }
@@ -168,7 +168,7 @@
     
     /*Преимущества* + композиция, что бы убрать маркеры*/
     
-    .rings{
+    .rings {
         list-style: none;
     }
     
@@ -190,28 +190,54 @@
     .details {
         font-family: 'Roboto';
         font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+
+        color: #212121;
+
+    
+    }
+    
+    .text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+
+        letter-spacing: 0.03em;
+
+        color: #757575;
+
+    
+    }
+    .names {
+        font-family: 'Roboto';
+        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 19px;
        
         letter-spacing: 0.03em;
-        
         color: #212121;
-    
+
     }
-    
-    .text {
-        font-family:'Roboto';
+    .namestext {
+        font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 19px;
-       
+        /* identical to box height */
+
         
         letter-spacing: 0.03em;
-        
         color: #757575;
-    
+
     }
     
     .teamsection { 
@@ -266,28 +292,32 @@
     
         letter-spacing: 0.03em;
     
-       color: #FFFFFF;
+       
        font-style: normal;
        list-style: none;
-    
+       text-decoration: none;
     }
     .coloradress{
-        font-family:'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: calc(24/14);
-     /* or 171% */
-    
-        letter-spacing: 0.03em;
-        color: rgba(126, 31, 31, 0.6);
-        font-style: normal;
-        list-style: none;
+        
+        color: #FFFFFF;
+        text-decoration: none;
+        
+    }
+    .coliremail {
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+
+    }
+    .colorphoe {
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+
     }
     
       /*!!убираем маркеры!!но что-то не так*/  
     .link {
      text-decoration: none;
+     
     }
     
     .list {
