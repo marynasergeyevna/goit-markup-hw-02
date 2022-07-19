@@ -55,8 +55,7 @@
     /*Контакты*/
     
     
-    .liststydia:hover
-    .liststydia:focus {
+    .liststudio {
       font-family: 'Roboto';
       font-style: normal;
       font-weight: 500;
@@ -297,18 +296,19 @@
        list-style: none;
        text-decoration: none;
     }
-    .coloradress{
+    .kyivadress {
         
-        color: #FFFFFF;
-        text-decoration: none;
-        
-    }
+        color:#FFFFFF;
+        text-decoration:none;
+     }
+     
+    
     .coliremail {
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
 
     }
-    .colorphoe {
+    .colorphone {
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
 
