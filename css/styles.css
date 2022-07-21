@@ -99,6 +99,14 @@
     
     
     .mail {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height:calc(16/14);
+        letter-spacing: 0.02em;
+
+
         color:#2196F3;
         cursor: pointer;
     
@@ -107,6 +115,12 @@
     }
     
     .phone{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height:calc(16/14);
+        letter-spacing: 0.02em;
         color:#757575;
         cursor: default;
         text-decoration: none;
@@ -153,6 +167,7 @@
     letter-spacing: 0.06em;
     
     color: #FFFFFF;
+    cursor: pointer;
     }
     
     .business  {
@@ -179,7 +194,7 @@
         font-weight: 700;
         font-size: 36px;
         line-height:calc(42/36);
-    
+        
         letter-spacing: 0.03em;
     }
     
@@ -191,7 +206,7 @@
         font-style: normal;
         font-weight: 700;
         font-size: 14px;
-        line-height: 16px;
+        line-height:calc(16/14);
         letter-spacing: 0.03em;
         text-transform: uppercase;
 
@@ -205,7 +220,7 @@
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 24px;
+        line-height:calc(24/14);
         /* or 171% */
 
         letter-spacing: 0.03em;
@@ -219,7 +234,7 @@
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
-        line-height: 19px;
+        line-height:calc(19/16);
        
         letter-spacing: 0.03em;
         color: #212121;
@@ -230,7 +245,7 @@
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        line-height: 19px;
+        line-height:calc(19/16);
         /* identical to box height */
 
         
@@ -254,7 +269,7 @@
         font-style: normal;
         font-weight: 700;
         font-size: 26px;
-        line-height: 31px;
+        line-height:calc(31/26);
         /* identical to box height */
         
         letter-spacing: 0.03em;
