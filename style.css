@@ -1,0 +1,190 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #F5F5F5;
+}
+
+/*Шапка сайта*/
+
+header {
+position: absolute;
+width: 1600px;
+height: 80px;
+left: 0px;
+top: 0px;
+}
+
+.web {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height:calc(31/26);
+/* identical to box height з фигми*/
+
+letter-spacing:0.03em;
+
+color: #2196F3;
+cursor: default;
+text-decoration:none;
+
+}
+
+.studio {
+font-family: 'Raleway';
+
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height:calc(31/26);
+/* identical to box height з фигми*/
+    
+letter-spacing:0.03em;
+    
+color: #2F303A;
+cursor: default; 
+text-decoration: none;
+letter-spacing: normal;
+    
+    
+}
+
+.button1 {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+.button2{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.button3 {
+font-family:'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.button4 {
+font-family:'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.button5{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+
+/*Футер*/
+footer {
+background-color: #2F303A;
+}
+
+.webb {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height:calc(31/26);
+/* identical to box height */
+        
+letter-spacing: 0.03em;
+    
+color:#2196F3;
+cursor: default;
+text-decoration: none;
+ }
+    
+.studioo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height:calc(31/26);
+/* identical to box height */
+    
+letter-spacing: 0.03em;
+color: #FFFFFF;
+cursor: default;
+text-decoration: none;
+    
+}
+
+.adress {
+font-family:'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24/14);
+/* or 171% */
+    
+letter-spacing: 0.03em;
+    
+       
+font-style: normal;
+list-style: none;
+text-decoration: none;
+}
+
+.kyivadress {
+        
+color:#FFFFFF;
+text-decoration:none;
+}
+     
+    
+.coliremail {
+ color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+
+}
+.colorphone {
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+
+    }
+    
