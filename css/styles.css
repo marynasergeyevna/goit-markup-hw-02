@@ -2,6 +2,11 @@
     :root {
         --color1:#2196F3;
         --color2:#FFFFFF;
+        --color3:#212121;
+        --color4:#000000;
+        --color5:#F5F5F5;
+        --color6:#F5F4FA;
+
     }
 
 
@@ -17,14 +22,19 @@
     list-style: none;
     
     }
-
+    .sitemap{
+        background: var(--color2);
+    }
      /*Шапка сайта*/
     
     .web {
    
+    font-family: 'Raleway';
+    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height:1,20;
+    line-height:calc(31/26);
+    letter-spacing: 0.03em;
 
     cursor: default;
     text-decoration: none;
@@ -33,9 +43,12 @@
     
     .studio {
    
-    font-weight: 500;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
     font-size: 26px;
-    line-height:1,20;
+    line-height:calc(31/26);
+    letter-spacing: 0.03em;
     
     cursor: default; 
     text-decoration: none;
@@ -45,9 +58,12 @@
 
     .studios {
     
-    font-weight: 500;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
     font-size: 26px;
-    line-height:1,20;
+    line-height:calc(31/26);
+    letter-spacing: 0.03em;
     
     cursor: default; 
     text-decoration: none;
@@ -85,14 +101,12 @@
     }
     
     /*Решения для бизнеса*/
+    .information{
+        background: var(--color5);
+    }
     
     .businessection {
-    
-    /*Рfont-weight: 900;
-    font-size: 44px;
-    line-height:1.3;*/
-
-    background-color: #2F303A;
+     background-color: #2F303A;
     color: #FFFFFF;
     }
     
@@ -118,6 +132,9 @@
     }
 
     /*Чем мы занимаемся*/
+    .whatwemadesection{
+        background: var(--color6);
+    }
     
     .whatwemade {
    
